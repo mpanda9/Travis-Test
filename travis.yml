@@ -1,6 +1,12 @@
 language: go
 
+services:
+  - docker
+
 script:
   - echo "Hello.. ! Script Starting"
   - env
+  - docker version
+  - docker-compose --version
   
+
