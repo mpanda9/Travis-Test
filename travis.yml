@@ -1,0 +1,5 @@
+language: go
+
+script:
+  - echo "Script Starting"
+  - env
