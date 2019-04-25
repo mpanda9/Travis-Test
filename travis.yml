@@ -1,5 +1,6 @@
 language: go
 
 script:
-  - echo "Script Starting"
+  - echo "Hello.. ! Script Starting"
   - env
+  
